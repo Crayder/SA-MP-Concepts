@@ -1,6 +1,9 @@
 # SA-MP Concepts
 This repository is meant to be forked and edited by anyone with unique server or script concepts.
 
+- *Author*:
+- *Date*:
+
 ## Editing
 To add your own concepts, go in to one of the three folders and create a markdown page (.md). Place the details to your concept in the following format:
 
