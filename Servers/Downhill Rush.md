@@ -8,6 +8,8 @@ Players will select a car out of a few spawned cars in a selection area. They wi
 
 There will be minigames like derbys and wall climbs.
 
+The hill templates will be generated and exported by a script given the angle of the slope and the distance. It will be made up of a constant slope of object model 19550, 19551, or 19552. The template will then be mapped onto with ramps, obstacles, random vehicles, and land mass objects.
+
 Downhill Domination game:
 http://gamestopplus.com/Image/covers/downhill-domination/downhill-domination-image644241.jpg
 http://static1.gamespot.com/uploads/original/mig/2/8/6/4/512864-downhilldom_030.jpg
