@@ -9,4 +9,4 @@ can be made in this to make grids.The checking of sudoku or an auto solving feat
 * The back tracking algorithm can be found here http://forum.sa-mp.com/showpost.php?p=3789698&postcount=1192
 * The creation of random sudoku most probably leads to an unsolvable puzzle.
 
-*Written by Sreyas
+*Written by Sreyas*
