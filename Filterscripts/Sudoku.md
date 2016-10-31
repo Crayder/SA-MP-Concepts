@@ -1,4 +1,4 @@
-##SUDOKU MINIGAME USING BACK TRACE ALGORITHM.
+##SUDOKU MINIGAME USING BACK TRACK ALGORITHM.
 
 ###Concept 
 In this mini game the player should be given a sudoku with time limit or not.The sudoku can be created with a matrix.Some text draw work
