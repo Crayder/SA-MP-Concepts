@@ -8,6 +8,9 @@ To add your own concepts, go in to one of the three folders and create a markdow
 # Title
 Short Description 
 
+- *Author*:
+- *Date*:
+
 ## More Details
 Extra Details 
 
