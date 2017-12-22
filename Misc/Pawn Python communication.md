@@ -49,7 +49,7 @@ CMD:play(playerid,params[])
     new payload[70];
     format(payload,sizeof payload,"localhost:5000/audio/%s",params);
     HTTP(playerid, HTTP_GET, payload, "", "PythonSays");
-	return 1;
+    return 1;
 }
 
 forward PythonSays(index, response_code, data[]);
