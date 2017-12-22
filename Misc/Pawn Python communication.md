@@ -40,13 +40,13 @@ app.run("localhost",5000,debug=True,threaded=True)
 
 CMD:start(playerid,params[])
 {
-	HTTP(playerid, HTTP_GET, "localhost:5000/audio/h2XTsWgN0CU", "", "MyHttpResponse");
-	return 1;
+    HTTP(playerid, HTTP_GET, "localhost:5000/audio/h2XTsWgN0CU", "", "MyHttpResponse");
+    return 1;
 }
 
 CMD:play(playerid,params[])
 {
-	new payload[70];
+    new payload[70];
     format(payload,sizeof payload,"localhost:5000/audio/%s",params);
     HTTP(playerid, HTTP_GET, payload, "", "PythonSays");
 	return 1;
@@ -55,11 +55,11 @@ CMD:play(playerid,params[])
 forward PythonSays(index, response_code, data[]);
 public PythonSays(index, response_code, data[])
 {
-	new buf[100];
-	format(buf,sizeof buf,"[%d]Python says : %s",response_code,data);
-	SendClientMessage(index,-1,buf);
+    new buf[100];
+    format(buf,sizeof buf,"[%d]Python says : %s",response_code,data);
+    SendClientMessage(index,-1,buf);
     PlayAudioStreamForPlayer(index, data);
-	return 1;
+    return 1;
 }
 ````
 
