@@ -63,3 +63,5 @@ public PythonSays(index, response_code, data[])
 }
 ````
 
+## sa-mp ai chat bot
+https://github.com/Sreyas-Sreelal/samp-ai-chatbot/
